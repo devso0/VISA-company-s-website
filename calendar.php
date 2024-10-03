@@ -32,7 +32,7 @@ footer {
         <div class="navbar">
         <nav class="navigation hide" id="navigation">
             <ul class="nav-list">
-                <li class="nav-item"><a href="Homepage.html">Go Back</a></li>
+                <li class="nav-item"><a href="index.html">Go Back</a></li>
             </ul>
         </nav>
     </div>
