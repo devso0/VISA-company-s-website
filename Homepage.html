@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <hr name="Line" width="100%" size ="2">
+    <div class="container1">
+    <h1 style="color:rgb(255, 255, 255);">Welcome the website that can help~</h1>
+    </div>
+    <div class="container2">
+    <a href="Userlogin.php">
+        <button style="background-color: blanchedalmond;">Register</button>
+    </a>
+    </div> 
+
+    <div class="navbar">
+        <nav class="navigation hide" id="navigation">
+            <span class="close-icon" id="close-icon" onclick="showIconBar()"><i class="fa fa-close"></i></span>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="Homepage.html">Homepage</a></li>
+                <li class="nav-item"><a href="docs.php">Document Note Pad</a></li>
+                <li class="nav-item"><a href="encryption.php">Encryption</a></li>
+            </ul>
+        </nav>
+        <a class="bar-icon" id="iconBar" onclick="hideIconBar()"><i class="fa fa-bars"></i></a>
+        <div class="brand">Welcome</div>
+    </div>
+        <!--SearchBox Section-->
+        <div class="search-box">
+            <a href="calendar.php">
+                <button style="background-color: blanchedalmond;"> Calendar </button>
+            </a>
+            <a href="docs.php">
+                <button style="background-color: blanchedalmond;"> Documents</button>
+            </a>
+            <a href="encryption.php">
+                <button style="background-color: blanchedalmond;"> Encyrpting files</button>
+            </a>
+        </div>
+    </header>
+    <script src="main.js"></script>
+</body>
+</html>
